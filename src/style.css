@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: beige;
 
   font-family: "Maven Pro", sans-serif;
   font-optical-sizing: auto;
@@ -7,10 +7,37 @@ body {
   font-style: normal;
 }
 .weather-app {
-  background: beige;
+  background: grey;
   max-width: 600px;
   margin: 30px auto;
   box-shadow: 30px 60px rgba(60, 50, 90, 0.1);
   border-radius: 15px;
   padding: 30px;
+}
+
+.header {
+  border-bottom: 1px solid grey;
+  padding: 15px 10px;
+}
+.search-form-input {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+.search-form-button {
+  background: black;
+  color: aliceblue;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.footer {
+  text-align: center;
+  padding: 30px 0 0 0;
+  border-top: 1px solid grey;
+  color: pink;
 }
