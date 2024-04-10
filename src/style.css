@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.weather-app {
+  background: beige;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 30px 60px rgba(60, 50, 90, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+}
