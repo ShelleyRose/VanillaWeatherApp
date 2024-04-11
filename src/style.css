@@ -1,56 +1,116 @@
 body {
-  background-color: beige;
-
-  font-family: "Maven Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+  background-color: #9fd3c7;
+  font-family: "Courier New", Courier, monospace;
 }
-.weather-app {
-  background: grey;
-  max-width: 600px;
-  margin: 30px auto;
-  box-shadow: 30px 60px rgba(60, 50, 90, 0.1);
+.weather-app-data {
+  background: #ececec;
+  max-width: 550px;
+  height: 220px;
+  margin: 70px auto;
+  padding: 50px;
   border-radius: 15px;
-  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  display: flex;
+  justify-content: space-around;
 }
 
+.weather-app-data strong {
+  color: #5585b5;
+}
+.weather-app-icon {
+  font-size: 50px;
+  position: relative;
+  margin-right: 5px;
+}
+
+.weather-app-bold-temperature {
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  align-items: right;
+}
+.weather-app-unit {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
 .weather-app-city-h1 {
   font-family: "Courier New", Courier, monospace;
+  font-size: 58px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 18px;
 }
 
 .header {
   border-bottom: 1px solid grey;
   padding: 15px 10px;
+  font-size: 48px;
 }
+
 .search-form-input {
-  background-color: antiquewhite;
+  background-color: #bbe4e9;
   border: none;
   border-radius: 5px;
-  width: 80%;
+  margin: 40px 0px 20px 20px;
+  width: 70%;
   font-size: 16px;
   padding: 12px 20px;
+  align-content: center;
+  max-width: 250px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 .search-form-button {
-  background: black;
+  background: #5585b5;
   color: aliceblue;
   padding: 15px 20px;
   border: none;
   border-radius: 5px;
   margin-left: 5px;
-}
-.weather-app-data {
-  display: flex;
-  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 
 main {
   padding: 30px 0;
 }
 
-.footer {
-  text-align: center;
-  padding: 30px 0 0 0;
-  border-top: 1px solid grey;
-  color: pink;
+footer {
+  display: block;
+  align-items: center;
+  padding: 20px 0 0 0;
+  margin: 20px;
+  font-size: 15px;
+}
+.footer-link {
+  color: #9896f1;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
