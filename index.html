@@ -16,15 +16,17 @@
 
     <body>
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="Enter a City.." required class="search-form-input" />
-                <input type="submit" value="Search" class="search-form-button" />
-            </form>
+
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="weather-app-city-h1">
+                    <form class="search-form" id="search-form">
+                        <input type="search" placeholder="Enter a City.." required class="search-form-input"
+                            id="search-form-input" />
+                        <input type="submit" value="Search" class="search-form-button" />
+                    </form>
+                    <h1 class="weather-app-city-h1" id="city">
                         Paris
                     </h1>
                     <p class="weather-app-details">
@@ -47,6 +49,7 @@
     <a href="http://Netlify.com" target="_blank" class="footer-link"> Netlify</a>
 </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 
 </html>
