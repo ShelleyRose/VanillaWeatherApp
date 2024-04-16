@@ -1,0 +1,117 @@
+body {
+  background-color: #9fd3c7;
+  font-family: "Courier New", Courier, monospace;
+}
+.weather-app-data {
+  background: #ececec;
+  max-width: 600px;
+  height: 220px;
+  margin: 70px auto;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-app-data strong {
+  color: #5585b5;
+}
+.weather-app-icon {
+  font-size: 50px;
+  position: inline-block;
+  margin-top: 35px;
+}
+
+.weather-app-bold-temperature {
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  align-items: right;
+  margin-top: 40px;
+}
+.weather-app-unit {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 40px;
+}
+.weather-app-city-h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 58px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.header {
+  border-bottom: 1px solid grey;
+  padding: 15px 10px;
+  font-size: 48px;
+}
+
+.search-form-input {
+  background-color: #bbe4e9;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  font-size: 14px;
+  padding: 12px 20px;
+  max-width: 250px;
+  font-family: "Courier New", Courier, monospace;
+}
+.search-form-button {
+  background: #5585b5;
+  color: aliceblue;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+footer {
+  display: block;
+  align-items: center;
+  padding: 20px 0 0 0;
+  margin: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.footer-link {
+  color: #9896f1;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}

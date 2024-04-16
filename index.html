@@ -2,57 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <title>Weather App by Shelley Daniel</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@600&family=Maven+Pro:wght@900&display=swap"
-        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Shelley Daniel Weather App</title>
 </head>
-<div>
 
-    <body>
+<body>
+    <div class="weather-app">
         <header>
-
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city.." required id="search-form-input"
+                    class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <form class="search-form" id="search-form">
-                        <input type="search" placeholder="Enter a City.." required class="search-form-input"
-                            id="search-form-input" />
-                        <input type="submit" value="Search" class="search-form-button" />
-                    </form>
-                    <h1 class="weather-app-city-h1" id="city">
-                        London
-                    </h1>
+                    <h1 class="weather-app-city" id="city"></h1>
                     <p class="weather-app-details">
-                        <span id="time">09.54</span>
-                        <span id="description">, broken clouds</span>
+                        <span id="time"></span>,
+                        <span id="description"></span>
                         <br />
-                        Humidity:<strong id="humidity">73%</strong>, Wind:
-                        <strong class="wind-speed" id="wind-speed">7.72</strong>
+                        Humidity: <strong id="humidity"></strong>, Wind:
+                        <strong id="wind-speed"></strong>
                     </p>
                 </div>
-                <div class="weather-app-icon" id="icon">
-                    🌤</div>
-                <div class="weather-app-bold-temperature" id="temperature">10</div>
-                <div class="weather-app-unit">°C</div>
+                <div class="weather-app-temperature-container">
+                    <div id="icon"></div>
+                    <div class="weather-app-temperature" id="temperature"></div>
+                    <div class="weatehr-app-unit">°C</div>
+                </div>
             </div>
-</div>
-</main>
-<footer>
-    Coded by
-    <a href="http://github.com/shelleyrose/" target="_blank" class="footer-link"> Shelley Daniel</a>
-    open-sourced on <a href="http://Github.com" target="_blank" class="footer-link">GitHub</a> and hosted on
-    <a href="http://Netlify.com" target="_blank" class="footer-link"> Netlify</a>
-</footer>
-</div>
-<script src="src/index.js"></script>
+        </main>
+
+        <footer>
+            Coded by
+            <a href="http://github.com/shelleyrose/" target="_blank" class="footer-link"> Shelley Daniel</a>
+            open-sourced on <a href="http://Github.com" target="_blank" class="footer-link">GitHub</a> and hosted on
+            <a href="http://Netlify.com" target="_blank" class="footer-link"> Netlify</a>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
 </body>
 
 </html>

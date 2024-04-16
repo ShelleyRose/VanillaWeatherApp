@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Weather App by Shelley Daniel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@600&family=Maven+Pro:wght@900&display=swap"
+        rel="stylesheet">
+</head>
+<div>
+
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div class="weather-app-data">
+                <div>
+                    <form class="search-form" id="search-form">
+                        <input type="search" placeholder="Enter a City.." required class="search-form-input"
+                            id="search-form-input" />
+                        <input type="submit" value="Search" class="search-form-button" />
+                    </form>
+                    <h1 class="weather-app-city-h1" id="city">
+                        London
+                    </h1>
+                    <p class="weather-app-details">
+                        <span id="time">09.54</span>
+                        <span id="description">, broken clouds</span>
+                        <br />
+                        Humidity:<strong id="humidity">73%</strong>, Wind:
+                        <strong class="wind-speed" id="wind-speed">7.72</strong>
+                    </p>
+                </div>
+                <div class="weather-app-icon" id="icon">
+                    🌤</div>
+                <div class="weather-app-bold-temperature" id="temperature">10</div>
+                <div class="weather-app-unit">°C</div>
+            </div>
+</div>
+</main>
+<footer>
+    Coded by
+    <a href="http://github.com/shelleyrose/" target="_blank" class="footer-link"> Shelley Daniel</a>
+    open-sourced on <a href="http://Github.com" target="_blank" class="footer-link">GitHub</a> and hosted on
+    <a href="http://Netlify.com" target="_blank" class="footer-link"> Netlify</a>
+</footer>
+</div>
+<script src="src/index.js"></script>
+</body>
+
+</html>
