@@ -14,11 +14,13 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
   border-bottom: 1px solid #ececec;
   padding: 0 0 30px 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .search-form-input {
@@ -28,6 +30,7 @@ header {
   width: 78%;
   font-size: 16px;
   padding: 15px 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .search-form-button {
@@ -38,6 +41,7 @@ header {
   margin-left: 3px;
   border-radius: 6px;
   color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 
 main {
@@ -47,12 +51,24 @@ main {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .weather-app-city {
   margin: 0;
   font-size: 60px;
   line-height: 48px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16;
+  font-family: "Courier New", Courier, monospace;
+  color: #9896f1;
+  opacity: 0.6;
 }
 
 .weather-app-details {
@@ -81,6 +97,19 @@ main {
   font-weight: bold;
 }
 
+.weather-forecast {
+  display: block;
+}
+
+.weather-forecast-temperature-max {
+  font-size: 13;
+}
+
+.weather-forecast-temperature-min {
+  font-size: 13;
+  opacity: 0.5;
+}
+
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
@@ -92,4 +121,5 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #ff5d9e;
+  font-family: "Courier New", Courier, monospace;
 }
