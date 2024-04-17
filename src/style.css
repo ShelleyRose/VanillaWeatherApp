@@ -89,6 +89,8 @@ main {
 .weather-app-icon {
   width: 88px;
   height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-app-temperature {
@@ -98,7 +100,8 @@ main {
 }
 
 .weather-forecast {
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 
 .weather-forecast-temperature-max {
